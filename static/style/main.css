@@ -1,0 +1,63 @@
+@import url('../style/variables.css');
+@font-face {
+    font-family: 'unicons';
+    src: url("../../assets/font/Nikosh.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'unicons'!important;
+}
+
+.navbar {}
+
+.nav-item {
+    padding: 0 10px;
+    margin-left: 10px;
+}
+
+.nav-item:hover {
+    background-color: var(--primary-background-color) !important;
+    color: var(--primary-text-color) !important;
+    border-radius: 5px;
+}
+
+.nav-link:hover {
+    color: var(--primary-text-color) !important;
+}
+
+.active {
+    background-color: var(--primary-background-color) !important;
+    color: var(--primary-text-color) !important;
+    border-radius: 5px;
+}
+
+.active .nav-link {
+    color: var(--primary-text-color) !important;
+}
+
+.show .navbar-nav .nav-item {
+    margin-top: 10px;
+}
+
+.main-container {
+    background-color: var(--secondary-background-color);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.content-title {
+    background-color: var(--primary-background-color) !important;
+    color: var(--primary-text-color) !important;
+}
+
+.card-shadow {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
